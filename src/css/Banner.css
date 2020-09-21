@@ -1,0 +1,41 @@
+.banner {
+    background: url("https://www.pexels.com/photo/2029673/download/?search_query=dining%20room&tracking_id=nr1kim8y2t") center center / cover;
+    height: 60vh;
+    position: relative;
+}
+
+.banner__info {
+    background: black;
+    color: white;
+    padding: 20vh 50px 40px 50px;
+    width: 300px;
+}
+
+.banner__info h5 {
+    margin-top: 10px;
+}
+
+.banner__info button {
+    background: #f7585b;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: inherit;
+}
+
+.banner__info button:hover {
+    background: white;
+    color: #f7585b;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background: white !important;
+    font-weight: 900 !important;
+    color: #f7585b !important;
+    border-radius: 0 !important;
+}
